@@ -38,5 +38,5 @@ extra_css:
 nav:
   - Introdução: index.md
   - Visão do Produto e projeto:
-    - Visão do produto: visao_geral_produto/visao_produto.md
-    - Visão do Projeto: visao_projeto/visao_do_projeto.md
+    - Visão do produto: visao_produto_projeto/visao_do_produto.md
+    - Visão do Projeto: visao_produto_projeto/visao_do_projeto.md
