@@ -18,12 +18,16 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
+      primary: #3dafe5
+      accent: #3dafe5
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+      primary: #3dafe5
+      accent: #3dafe5
+
   font:
     text: "Montserrat"
     code: "sans-serif"

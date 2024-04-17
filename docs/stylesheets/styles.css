@@ -19,12 +19,12 @@
   }
   
   thead tr {
-    background: #2E8B57 !important;
+    background: #3dafe5 !important;
     color: white;
   }
   
   tr:nth-child(odd) {
-    background: #f8f8f8;
+    background: #f8f8f816;
   }
   
   td,

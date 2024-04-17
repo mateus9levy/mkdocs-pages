@@ -6,41 +6,38 @@
 | :--------: | :--------: | :--------:  | :--------: | 
 | 16/04/2024 | 1.0 | Criação do Documento  | Mateus, Raphael, Ana Karoliny, Gustavo Melo |
 
-##  Problema:
+##  Problema
 
-- A oportunidade identificada foi uma atividade de **consultoria** de nutrição e musculação. A negócio em questão envolve um grande número de clientes e necessita de **organização** em vários aspectos, como as datas de retorno do cliente para acompanhamento de seu progresso, plano contratado (trimestral ou semestral), dentre outros.
-- Nota-se que, devido à falta de funcionários e à falta de um software que atenda o seu negócio, o cliente fica com toda a responsabilidade de estruturar essas informações para si, tendo que usar soluções próprias para suas necessidades, como Excel ou mesmo uma agenda física. Logo, percebe-se que uma **solução em software** pensada especificamente para o cliente facilitaria muito o seu ambiente de trabalho.
-![imagem_ishikawa](assets/images/Ishikawa.png)
+**Problema:** O cliente marca a sessão de design de sobrancelha e não vai. Ou marca a sessão e cancela de última hora.
 
-##  Declaração de Posição do Produto:
+**1. Por que o cliente não avisa antes?** Porque ele não lembra de cancelar antes.
 
-- O produto a ser desenvolvido será um software voltado para o **gerenciamento** de um negócio de consultoria de nutrição e musculação, permitindo que o usuário cadastre clientes e todas as informações relevantes a respeito do mesmo, como dieta, treinamento e suplementação recomendadas, além de lembrar o profissional de datas importantes, a exemplo, retorno do cliente para nova consulta de acompanhamento (e permitir controle da realização dessas mesmas consultas).
-- Além disso, envio automático de e-mails para os clientes do estabelecimento, facilitando a **comunicação** entre o nutricionista e seu paciente.
+**2. Por que o cliente não lembra de cancelar?** Porque o cliente não pensou muito sobre quais compromissos tinha. Acham que cancelar não têm consequências.
 
-- O diferencial do produto é atender diferentes necessidades em um ambiente só. Devido às várias nuances dessa atividade, o profissional precisa recorrer a diferentes softwares para poder **gerenciar** suas informações, fragmentando-as em diferentes partes. Ao oferecer um **ambiente único**, remove-se a necessidade da utilização e aprendizagem de diferentes sistemas e é favorecido a organização dos dados, pois estarão todos em um só ambiente.
+**3. Por que o cliente não pensou muito sobre os compromissos?** Porque ninguém lembrou ele colocando a devida importância no assunto.
 
-- Os **usuários-alvo** deste produto são os nutricionistas e profissionais de educação física que possuem uma clínica ou que trabalham com o desenvolvimento de dietas.
+**4. Por que ninguém lembrou o cliente?** Porque a Keu marca por Whatsapp e não tem tempo de lembrar os outros de comparecer toda hora.
 
-- Ao utilizar esse produto, o usuário irá precisar mais de ferramentas e softwares diversos para **administrar** seu empreendimento.
+* A causa do problema é a falta de um método de confirmação antecipada com o cliente sobre a sessão de design de unha com a Keu. Nossa solução precisa lembrar e confirmar com o cliente se o mesmo vai ou não na sessão.
 
-| Para | Nutricionistas e profissionais de Educação Física |
+![imagem_ishikawa](https://github.com/mdsreq-fga-unb/2024.1-Est-dio-de-Beleza-Keuany/assets/79723182/6c7e32ca-2063-4a5f-9ca4-3e72bdb02bbe)
+
+##  Declaração de Posição do Produto
+
+| Para | Estúdio de Beleza Keuany |
 | --- | --- |
-| Quem | Tem dificuldades de gerenciar as atividades do consultório |
-| O (nome do produto) | NutriPlanner é voltado para a área de saúde |
-| Que | busca auxiliar o gerenciamento de consultas e proporcionar ferramentas que auxiliem a realização das consultas |
-| Ao contrário | Do excel e da agenda física |
-| Nosso produto | Organiza informações diretamente em emails e calendários, como o gmail e o google agenda. |
+| Quem | Clientes que desejam realizar um agendamentos e a Keuany na divulgação de seu negócio |
+| O Estúdio de Beleza Keuany | É uma aplicação web no ramo da tecnologia que promove serviços online |
+| Que | Permite que os clientes agendem um horário para realizar o design de sobrancelha e que divulgue o portfólio da Keuany afim de promover seu trabalho |
+| Ao contrário | SOS Unhas |
+| Nosso produto | Envia uma confirmação do agendamento para o cliente antes do atendimento para evitar possíveis cancelamentos em cima da hora |
 
-##  Objetivos do Produto:
-**Objetivo principal:** o sistema deve auxiliar um negócio de consultoria de nutrição, tanto na parte de administração dos pacientes (envios de mensagens por e-mail, dados pessoais) quanto na parte de administração de consultas (geração e envio de dietas e treinos, agendamento de consultas).
+##  Objetivos do Produto
+**Objetivo Principal #1:** Diminuir o número de cancelamentos tardios.
 
-**Objetivos Específicos:**
+**Objetivo Principal #2:** Garantir disponibilidade da vaga perdida em tempo hábil de inscrição.
 
-- Desenvolver um sistema que permita o cadastro e a administração eficiente das informações de pacientes.
-- Implementar uma funcionalidade que permita nutricionistas e pacientes agendar consultas de forma fácil e conveniente, com opções de disponibilidade e lembretes.
-- Criar uma ferramenta no sistema que possibilite a geração de planos de dieta personalizados com base nas necessidades de saúde e preferências dos pacientes.
-- Desenvolver uma funcionalidade que permita a criação de planos de treino adaptados às metas e capacidades individuais dos pacientes.
-- Integre um sistema de mensagens por e-mail no aplicativo para permitir a comunicação direta entre profissionais de saúde e pacientes, enviando informações importantes, lembretes de consultas e dicas de saúde.
+**Objetivo Secundário #1:** Criar mais meios de divulgação do trabalho do cliente além do Instagram.
 
 ##  Tecnologias utilizadas:
 
@@ -59,14 +56,3 @@
 |  <img src="../assets/images/logo_discord.png" width="50" style="border-radius: 50%" />  | Discord | Comunicações e registros de informações internas / Pareamentos |
 |  <img src="../assets/images/logo_drive.png" width="70" style="border-radius: 50%" />  | Google Drive | Armazenamento e manuseio de documentos |
 |  <img src="../assets/images/logo_github.png" width="50" style="border-radius: 50%" />  | Github | Repositórios de documentação e código do projeto |
-
-##  Histórico de Versão:
-
-| **Data** | **Versão** | **Descrição** | **Autor** |
-| :--------: | :--------: | :--------:  | :--------: | 
-| 23/09/2023 | 1.0 | Criação do Documento  | [Mateus Fidelis](https://github.com/MatsFidelis)  |
-| 28/09/2023 | 1.1 | Adição de imagens e edição de textos  |  [Mateus Fidelis](https://github.com/MatsFidelis)  |
-| 28/09/2023 | 1.2 | Alteração nos índices e na formatação da documentação  |  [Mateus Fidelis](https://github.com/MatsFidelis)  |
-| 24/10/2023 | 1.3 | Adição do diagrama de Ishikawa  |  [Maria Alice](https://github.com/Maliz30)|
-| 24/10/2023 | 1.4 | Adição do Google Meets em Ferramentas |  [Lucas Spinosa](https://github.com/LucasSpinosa)  |
-| 02/11/2023 | 1.5 | Correção dos objetivos do produto |  [Leandro Silva](https://github.com/Leanddro13)  |
